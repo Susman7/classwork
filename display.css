@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* .genDiv{
+display: flex;
+display: grid;
+grid-template-columns: 1fr;
+gap: 30px;
+} */
+
+
+.genDiv{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 30px;
+    }
+
+.genDiv div{
+background-color: black;
+color: white;
+margin: 0px 20px;
+padding: 10px;
+}
+
+.do{
+    padding: 30px;
+    margin: 10px;
+}
+
+
+
+/* .try{
+    display: flex;
+    gap: 30px;
+}
+
+.try div{
+    margin-bottom: 30px;
+padding: 60px;
+width: 100%;
+background-color:white;
+
+} */

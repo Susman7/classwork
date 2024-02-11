@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color:black;
+    padding: 20px 10%;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.leftNavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rightNavbar{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.rightNavbar button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* =========================Background Section============================? */
+
+.backgroundSection{
+    background-image: url(back.png);
+    background-size: cover;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.backgroundSection div h2{
+    font-size: 60px;
+}
+
+
+.backgroundSection div{
+    text-align: center;
+}
+
+
+
+.backgroundSection button{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.backgroundSection p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+
+.backgroundSection button:hover{
+  background-color: orange;
+  color:white;
+  transition: all 0.7s ease;
+  transform: scale(2.1);
+
+}
